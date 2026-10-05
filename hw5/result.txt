@@ -1,0 +1,87 @@
+Seed: 20261002
+
+Generated data (in generation order):
+ 348  221   77  934  117   34  720  119  190  837
+ 466  786  632  356   15  983  147  692  325  972
+ 587  787  344  827  404  562  283  945  274  602
+   9   64  763  197  240  914   41  390  210  108
+ 294  515  926  966  285  316  681  963  710  850
+ 269   48   78  742   54  164  479  367  556  132
+ 465  381  835  377  389  577  366  627  236   66
+ 503  927  937  284  226  892  234  773   93  114
+ 688  854  335  288  543  418  292  663  575  806
+ 464  573  336   90  815  144  889  960   10  398
+
+BST build comparisons: 558
+BST height (root depth = 0): 9
+
+Search keys:
+ 309   39  374  103  992  894  624  619  322  574
+ 686  774  659  658   93   31  890  114  334  299
+ 254  968  494  820  712   92  886  183  397   75
+ 320  851  279  196  340  779  292  779  107  815
+  15  666  493  350  208  310  676  987  793  450
+
+ No  Key  Sequential result  Comparisons  BST result  Comparisons
+  1  309  Not found                 100  Not found           12
+  2   39  Not found                 100  Not found           12
+  3  374  Not found                 100  Not found           20
+  4  103  Not found                 100  Not found           14
+  5  992  Not found                 100  Not found            6
+  6  894  Not found                 100  Not found           14
+  7  624  Not found                 100  Not found           16
+  8  619  Not found                 100  Not found           16
+  9  322  Not found                 100  Not found           12
+ 10  574  Not found                 100  Not found           20
+ 11  686  Not found                 100  Not found           16
+ 12  774  Not found                 100  Not found           14
+ 13  659  Not found                 100  Not found           16
+ 14  658  Not found                 100  Not found           16
+ 15   93  Found                      79  Found               13
+ 16   31  Not found                 100  Not found           10
+ 17  890  Not found                 100  Not found           18
+ 18  114  Found                      80  Found               11
+ 19  334  Not found                 100  Not found           10
+ 20  299  Not found                 100  Not found           12
+ 21  254  Not found                 100  Not found           14
+ 22  968  Not found                 100  Not found           12
+ 23  494  Not found                 100  Not found           20
+ 24  820  Not found                 100  Not found           18
+ 25  712  Not found                 100  Not found           14
+ 26   92  Not found                 100  Not found           16
+ 27  886  Not found                 100  Not found           18
+ 28  183  Not found                 100  Not found           16
+ 29  397  Not found                 100  Not found           16
+ 30   75  Not found                 100  Not found           12
+ 31  320  Not found                 100  Not found           12
+ 32  851  Not found                 100  Not found           16
+ 33  279  Not found                 100  Not found           10
+ 34  196  Not found                 100  Not found           14
+ 35  340  Not found                 100  Not found           12
+ 36  779  Not found                 100  Not found           14
+ 37  292  Found                      87  Found               15
+ 38  779  Not found                 100  Not found           14
+ 39  107  Not found                 100  Not found           14
+ 40  815  Found                      95  Found               17
+ 41   15  Found                      15  Found                9
+ 42  666  Not found                 100  Not found           16
+ 43  493  Not found                 100  Not found           20
+ 44  350  Not found                 100  Not found           10
+ 45  208  Not found                 100  Not found           16
+ 46  310  Not found                 100  Not found           12
+ 47  676  Not found                 100  Not found           16
+ 48  987  Not found                 100  Not found            6
+ 49  793  Not found                 100  Not found           16
+ 50  450  Not found                 100  Not found           18
+
+Number of searches: 50
+Found: 5, Not found: 45
+Sequential total: 4856
+Sequential average: 97.12
+BST search total: 711
+BST search average: 14.22
+BST build comparisons: 558
+BST build + search: 1269
+Sequential minus BST (including build): 3587
+Found averages: sequential=71.20, BST=13.00
+Not-found averages: sequential=100.00, BST=14.36
