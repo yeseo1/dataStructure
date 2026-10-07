@@ -1,0 +1,108 @@
+Seed: 20261007
+
+Generated integers (100 attempts):
+ 365  439  103  924  904  649  531  233  460  863
+ 727    5  275  799  660  381  162  520  469  271
+ 872  644  873  129  876   65  514  771  454  219
+ 999  437  879  723  332  297  309  257   82  151
+  65   63  217  848  650  981  121  348  848  712
+ 907  318  806  536   93  805  557  978   30  268
+ 387  625  828  958  577  633  108  181  703  573
+  61  745  715  276  970  700  158  595  890 1000
+ 611  685  360  398  186  921  847  301  121  224
+ 997  917  320  620  576  762  182  647  615  776
+
+Stored values: 97
+Skipped duplicates: 3
+Stored array (first occurrence order):
+ 365  439  103  924  904  649  531  233  460  863
+ 727    5  275  799  660  381  162  520  469  271
+ 872  644  873  129  876   65  514  771  454  219
+ 999  437  879  723  332  297  309  257   82  151
+  63  217  848  650  981  121  348  712  907  318
+ 806  536   93  805  557  978   30  268  387  625
+ 828  958  577  633  108  181  703  573   61  745
+ 715  276  970  700  158  595  890 1000  611  685
+ 360  398  186  921  847  301  224  997  917  320
+ 620  576  762  182  647  615  776
+
+Construction comparisons:
+Array: 4771
+BST: 1295
+AVL: 1085
+
+Array length: 97
+BST height: 15
+AVL height: 8
+
+Search keys (50):
+ 984  984  357  850  962  688  272  576  164  787
+  17   95  788  312  517  315  297    0  588  635
+  73  226  405   44  796  632  723  827  374  580
+ 123  304   62  813  680  817  184  651  758  853
+  33  514  998  807   79  366   82  877  480  779
+
+ No  Key  Array result  Comparisons  BST result  Comparisons  AVL result  Comparisons
+  1  984  Not found           97  Not found           12  Not found           16
+  2  984  Not found           97  Not found           12  Not found           16
+  3  357  Not found           97  Not found           14  Not found           14
+  4  850  Not found           97  Not found           18  Not found           10
+  5  962  Not found           97  Not found           16  Not found           14
+  6  688  Not found           97  Not found           26  Not found           14
+  7  272  Not found           97  Not found           10  Not found           12
+  8  576  Found               92  Found               25  Found               15
+  9  164  Not found           97  Not found           14  Not found           14
+ 10  787  Not found           97  Not found           20  Not found           16
+ 11   17  Not found           97  Not found           12  Not found           12
+ 12   95  Not found           97  Not found           12  Not found           12
+ 13  788  Not found           97  Not found           20  Not found           16
+ 14  312  Not found           97  Not found           16  Not found           12
+ 15  517  Not found           97  Not found           20  Not found           14
+ 16  315  Not found           97  Not found           16  Not found           12
+ 17  297  Found               36  Found               11  Found                9
+ 18    0  Not found           97  Not found            6  Not found           12
+ 19  588  Not found           97  Not found           24  Not found           14
+ 20  635  Not found           97  Not found           22  Not found           14
+ 21   73  Not found           97  Not found           10  Not found           10
+ 22  226  Not found           97  Not found           12  Not found           14
+ 23  405  Not found           97  Not found           12  Not found           14
+ 24   44  Not found           97  Not found           14  Not found           14
+ 25  796  Not found           97  Not found           20  Not found           16
+ 26  632  Not found           97  Not found           22  Not found           14
+ 27  723  Found               34  Found               17  Found                9
+ 28  827  Not found           97  Not found           22  Not found           12
+ 29  374  Not found           97  Not found            6  Not found           12
+ 30  580  Not found           97  Not found           24  Not found           14
+ 31  123  Not found           97  Not found           12  Not found           12
+ 32  304  Not found           97  Not found           16  Not found           12
+ 33   62  Not found           97  Not found           14  Not found           14
+ 34  813  Not found           97  Not found           22  Not found           12
+ 35  680  Not found           97  Not found           26  Not found           14
+ 36  817  Not found           97  Not found           22  Not found           12
+ 37  184  Not found           97  Not found           18  Not found           14
+ 38  651  Not found           97  Not found           18  Not found           12
+ 39  758  Not found           97  Not found           22  Not found           16
+ 40  853  Not found           97  Not found           18  Not found           10
+ 41   33  Not found           97  Not found           14  Not found           14
+ 42  514  Found               27  Found               19  Found               13
+ 43  998  Not found           97  Not found           12  Not found           16
+ 44  807  Not found           97  Not found           22  Not found           12
+ 45   79  Not found           97  Not found           10  Not found           10
+ 46  366  Not found           97  Not found            6  Not found           12
+ 47   82  Found               39  Found                9  Found                9
+ 48  877  Not found           97  Not found           20  Not found           14
+ 49  480  Not found           97  Not found           20  Not found           14
+ 50  779  Not found           97  Not found           20  Not found           16
+
+Searches: 50
+Found: 5
+Not found: 45
+Array search total: 4593
+Array search average: 91.86
+Array construction + search: 9364
+BST search total: 825
+BST search average: 16.50
+BST construction + search: 2120
+AVL search total: 655
+AVL search average: 13.10
+AVL construction + search: 1740
