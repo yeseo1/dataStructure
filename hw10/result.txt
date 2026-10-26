@@ -1,0 +1,67 @@
+Seed: 20261024
+Data Count: 10000
+Random Data
+Number of Trials: 100
+Selection
+Total Comparisons: 4999500000
+Average Comparisons: 49995000.00
+Total Movements: 2997063
+Average Movements: 29970.63
+Correct results: 100/100; Trials violating stability: 100
+
+Bubble
+Total Comparisons: 4999500000
+Average Comparisons: 49995000.00
+Total Movements: 7505720550
+Average Movements: 75057205.50
+Correct results: 100/100; Trials violating stability: 0
+
+Bubble early
+Total Comparisons: 4998533773
+Average Comparisons: 49985337.73
+Total Movements: 7505720550
+Average Movements: 75057205.50
+Correct results: 100/100; Trials violating stability: 0
+
+Insertion (>)
+Total Comparisons: 2502905881
+Average Comparisons: 25029058.81
+Total Movements: 2503906650
+Average Movements: 25039066.50
+Correct results: 100/100; Trials violating stability: 0
+
+
+Sorted Data (one trial, 10000 records)
+Selection: Comparisons=49995000, Movements=0, Correct=PASS, Stable on this input=Yes
+Bubble: Comparisons=49995000, Movements=0, Correct=PASS, Stable on this input=Yes
+Bubble early: Comparisons=9999, Movements=0, Correct=PASS, Stable on this input=Yes
+Insertion (>): Comparisons=9999, Movements=19998, Correct=PASS, Stable on this input=Yes
+
+Reverse-Sorted Data (one trial, 10000 records)
+Selection: Comparisons=49995000, Movements=15084, Correct=PASS, Stable on this input=No
+Bubble: Comparisons=49995000, Movements=149984826, Correct=PASS, Stable on this input=Yes
+Bubble early: Comparisons=49995000, Movements=149984826, Correct=PASS, Stable on this input=Yes
+Insertion (>): Comparisons=49995000, Movements=50014940, Correct=PASS, Stable on this input=Yes
+
+Partial input: 100 disjoint adjacent pair swaps (200 records); strict inversions=100
+
+Partially Sorted Data (one trial, 10000 records)
+Selection: Comparisons=49995000, Movements=300, Correct=PASS, Stable on this input=Yes
+Bubble: Comparisons=49995000, Movements=300, Correct=PASS, Stable on this input=Yes
+Bubble early: Comparisons=19997, Movements=300, Correct=PASS, Stable on this input=Yes
+Insertion (>): Comparisons=10099, Movements=20098, Correct=PASS, Stable on this input=Yes
+
+Stability Verification: (key1,key2,#original order)
+Original: (527,100,#0) (527,200,#1) (125,300,#2) (892,400,#3)
+Selection: Unstable
+(125,300,#2) (527,200,#1) (527,100,#0) (892,400,#3)
+Bubble: Stable
+(125,300,#2) (527,100,#0) (527,200,#1) (892,400,#3)
+Bubble early: Stable
+(125,300,#2) (527,100,#0) (527,200,#1) (892,400,#3)
+Insertion (>): Stable
+(125,300,#2) (527,100,#0) (527,200,#1) (892,400,#3)
+Insertion (>=): Unstable
+(125,300,#2) (527,200,#1) (527,100,#0) (892,400,#3)
+
+All sorting, record preservation and expected stability checks: PASS
