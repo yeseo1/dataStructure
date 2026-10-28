@@ -1,0 +1,47 @@
+Seed: 20261029
+Random values: 0..1000000 (duplicates allowed)
+Trials per size: 1
+
+Data Size : 1000
+Insertion Sort       : 246086 comparisons; Correct=PASS
+Shell Sort (Original): 14963 comparisons; Correct=PASS
+Gaps: 500, 250, 125, 62, 31, 15, 7, 3, 1
+Shell Sort (Knuth)   : 13216 comparisons; Correct=PASS
+Gaps: 364, 121, 40, 13, 4, 1
+
+Data Size : 2000
+Insertion Sort       : 1012161 comparisons; Correct=PASS
+Shell Sort (Original): 35003 comparisons; Correct=PASS
+Gaps: 1000, 500, 250, 125, 62, 31, 15, 7, 3, 1
+Shell Sort (Knuth)   : 34448 comparisons; Correct=PASS
+Gaps: 1093, 364, 121, 40, 13, 4, 1
+
+Data Size : 4000
+Insertion Sort       : 3933329 comparisons; Correct=PASS
+Shell Sort (Original): 84489 comparisons; Correct=PASS
+Gaps: 2000, 1000, 500, 250, 125, 62, 31, 15, 7, 3, 1
+Shell Sort (Knuth)   : 73384 comparisons; Correct=PASS
+Gaps: 3280, 1093, 364, 121, 40, 13, 4, 1
+
+Data Size : 8000
+Insertion Sort       : 15938759 comparisons; Correct=PASS
+Shell Sort (Original): 201039 comparisons; Correct=PASS
+Gaps: 4000, 2000, 1000, 500, 250, 125, 62, 31, 15, 7, 3, 1
+Shell Sort (Knuth)   : 182332 comparisons; Correct=PASS
+Gaps: 3280, 1093, 364, 121, 40, 13, 4, 1
+
+Data Size : 16000
+Insertion Sort       : 63868349 comparisons; Correct=PASS
+Shell Sort (Original): 498254 comparisons; Correct=PASS
+Gaps: 8000, 4000, 2000, 1000, 500, 250, 125, 62, 31, 15, 7, 3, 1
+Shell Sort (Knuth)   : 411372 comparisons; Correct=PASS
+Gaps: 9841, 3280, 1093, 364, 121, 40, 13, 4, 1
+
+Data Size : 20000
+Insertion Sort       : 101102435 comparisons; Correct=PASS
+Shell Sort (Original): 599231 comparisons; Correct=PASS
+Gaps: 10000, 5000, 2500, 1250, 625, 312, 156, 78, 39, 19, 9, 4, 2, 1
+Shell Sort (Knuth)   : 561299 comparisons; Correct=PASS
+Gaps: 9841, 3280, 1093, 364, 121, 40, 13, 4, 1
+
+All 18 sorting and value preservation checks: PASS
