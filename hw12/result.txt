@@ -1,0 +1,59 @@
+Seed: 20261104
+Random values: 0..1000000; duplicates allowed
+Timer: QueryPerformanceCounter; unit: ms
+
+Data Size : 1000
+Quick Sort (First): 10711 comparisons (partition=10711, pivot=0); Correct=PASS
+Quick Sort (Random): 12187 comparisons (partition=12187, pivot=0); Correct=PASS
+Quick Sort (Median-3): 10574 comparisons (partition=9077, pivot=1497); Correct=PASS
+Bonus: Median-of-Three, 100 repetitions, alternating execution order
+Recursive Quick Sort: 0.008992 ms average
+Iterative Quick Sort: 0.009057 ms average
+Bonus sorting and identical comparison counts: PASS
+
+Data Size : 2000
+Quick Sort (First): 24648 comparisons (partition=24648, pivot=0); Correct=PASS
+Quick Sort (Random): 28617 comparisons (partition=28617, pivot=0); Correct=PASS
+Quick Sort (Median-3): 23629 comparisons (partition=20621, pivot=3008); Correct=PASS
+Bonus: Median-of-Three, 100 repetitions, alternating execution order
+Recursive Quick Sort: 0.026737 ms average
+Iterative Quick Sort: 0.025513 ms average
+Bonus sorting and identical comparison counts: PASS
+
+Data Size : 4000
+Quick Sort (First): 49597 comparisons (partition=49597, pivot=0); Correct=PASS
+Quick Sort (Random): 56033 comparisons (partition=56033, pivot=0); Correct=PASS
+Quick Sort (Median-3): 53021 comparisons (partition=47062, pivot=5959); Correct=PASS
+Bonus: Median-of-Three, 100 repetitions, alternating execution order
+Recursive Quick Sort: 0.108743 ms average
+Iterative Quick Sort: 0.108379 ms average
+Bonus sorting and identical comparison counts: PASS
+
+Data Size : 8000
+Quick Sort (First): 119473 comparisons (partition=119473, pivot=0); Correct=PASS
+Quick Sort (Random): 126411 comparisons (partition=126411, pivot=0); Correct=PASS
+Quick Sort (Median-3): 115095 comparisons (partition=103170, pivot=11925); Correct=PASS
+Bonus: Median-of-Three, 100 repetitions, alternating execution order
+Recursive Quick Sort: 0.270177 ms average
+Iterative Quick Sort: 0.269167 ms average
+Bonus sorting and identical comparison counts: PASS
+
+Data Size : 16000
+Quick Sort (First): 246495 comparisons (partition=246495, pivot=0); Correct=PASS
+Quick Sort (Random): 262324 comparisons (partition=262324, pivot=0); Correct=PASS
+Quick Sort (Median-3): 258783 comparisons (partition=234883, pivot=23900); Correct=PASS
+Bonus: Median-of-Three, 100 repetitions, alternating execution order
+Recursive Quick Sort: 0.600843 ms average
+Iterative Quick Sort: 0.599303 ms average
+Bonus sorting and identical comparison counts: PASS
+
+Data Size : 20000
+Quick Sort (First): 343437 comparisons (partition=343437, pivot=0); Correct=PASS
+Quick Sort (Random): 321555 comparisons (partition=321555, pivot=0); Correct=PASS
+Quick Sort (Median-3): 317880 comparisons (partition=287894, pivot=29986); Correct=PASS
+Bonus: Median-of-Three, 100 repetitions, alternating execution order
+Recursive Quick Sort: 0.765960 ms average
+Iterative Quick Sort: 0.757268 ms average
+Bonus sorting and identical comparison counts: PASS
+
+All experiments: PASS
