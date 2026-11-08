@@ -1,0 +1,48 @@
+Seed: 20261104 (default reproduces assignment 12 input)
+Values: 0..1000000; duplicates allowed; one input per size
+Time: average of 100 runs, ms; memory: calculated auxiliary payload estimate
+sizeof(int)=4; MergeFrame=48; QuickFrame=32; Quick helper allowance=96
+
+Data Size : 1000
+Algorithm          Comparisons    Time(ms)  Memory estimate(Bytes)  Depth
+Merge Sort                8720    0.025491            4528        11  PASS
+Quick (First)            10711    0.011090             800        22  PASS
+Quick (Random)           12187    0.024811             832        23  PASS
+Quick (Median3)          10574    0.010865             640        17  PASS
+
+Data Size : 2000
+Algorithm          Comparisons    Time(ms)  Memory estimate(Bytes)  Depth
+Merge Sort               19390    0.063084            8576        12  PASS
+Quick (First)            24648    0.052325             832        23  PASS
+Quick (Random)           28617    0.084306             992        28  PASS
+Quick (Median3)          23629    0.056089             768        21  PASS
+
+Data Size : 4000
+Algorithm          Comparisons    Time(ms)  Memory estimate(Bytes)  Depth
+Merge Sort               42824    0.136538           16624        13  PASS
+Quick (First)            49597    0.127754             864        24  PASS
+Quick (Random)           56033    0.186331             960        27  PASS
+Quick (Median3)          53021    0.128979             768        21  PASS
+
+Data Size : 8000
+Algorithm          Comparisons    Time(ms)  Memory estimate(Bytes)  Depth
+Merge Sort               93677    0.291206           32672        14  PASS
+Quick (First)           119473    0.274027            1024        29  PASS
+Quick (Random)          126411    0.395759            1152        33  PASS
+Quick (Median3)         115095    0.285142             832        23  PASS
+
+Data Size : 16000
+Algorithm          Comparisons    Time(ms)  Memory estimate(Bytes)  Depth
+Merge Sort              203277    0.618949           64720        15  PASS
+Quick (First)           246495    0.606284            1088        31  PASS
+Quick (Random)          262324    0.821834            1120        32  PASS
+Quick (Median3)         258783    0.616690             928        26  PASS
+
+Data Size : 20000
+Algorithm          Comparisons    Time(ms)  Memory estimate(Bytes)  Depth
+Merge Sort              261024    0.780313           80768        16  PASS
+Quick (First)           343437    0.765669            1152        33  PASS
+Quick (Random)          321555    1.071831            1216        35  PASS
+Quick (Median3)         317880    0.784055             864        24  PASS
+
+All sorting, value preservation and repeated comparison checks: PASS
