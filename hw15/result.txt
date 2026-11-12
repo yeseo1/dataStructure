@@ -1,0 +1,93 @@
+Seed: 20261104; Quick pivot: Median-of-Three
+Time: 10-run mean, ms; Memory: modeled peak bytes
+sizeof(Node)=32; QuickFrame=48; ArrayFrame=40; TreeFrame=32; BalanceFrame=40; MinFrame=24
+
+Data Size: 1000
+Operations: 200 (insert=95, delete=105, successful deletes=0)
+Metric                          Quick Array         AVL Tree
+Total Time (ms)                     0.053320         0.102890
+Comparisons                          173679            21466
+Data Movements                        64086             1093
+Memory estimate (Bytes)                 5616            35368
+Final Data Count                       1095             1095
+Initial sort comparisons              10574            17355
+Initial sort movements                16942              999
+Operations comparisons               163105             4111
+Operations movements                  47144               94
+Array capacity: 1200; AVL peak nodes: 1093
+All per-operation multiset and AVL balance checks: PASS
+
+Data Size: 2000
+Operations: 400 (insert=183, delete=217, successful deletes=2)
+Metric                          Quick Array         AVL Tree
+Total Time (ms)                     0.217610         0.260090
+Comparisons                          664997            48102
+Data Movements                       235390             2183
+Memory estimate (Bytes)                10608            70184
+Final Data Count                       2181             2181
+Initial sort comparisons              23629            39054
+Initial sort movements                39495             2000
+Operations comparisons               641368             9048
+Operations movements                 195895              183
+Array capacity: 2400; AVL peak nodes: 2181
+All per-operation multiset and AVL balance checks: PASS
+
+Data Size: 4000
+Operations: 800 (insert=400, delete=400, successful deletes=1)
+Metric                          Quick Array         AVL Tree
+Total Time (ms)                     0.778970         0.543140
+Comparisons                         2610013           105694
+Data Movements                       891983             4390
+Memory estimate (Bytes)                20208           140872
+Final Data Count                       4399             4399
+Initial sort comparisons              53021            86073
+Initial sort movements                92570             3991
+Operations comparisons              2556992            19621
+Operations movements                 799413              399
+Array capacity: 4800; AVL peak nodes: 4388
+All per-operation multiset and AVL balance checks: PASS
+
+Data Size: 8000
+Operations: 1600 (insert=829, delete=771, successful deletes=5)
+Metric                          Quick Array         AVL Tree
+Total Time (ms)                     2.834360         1.282140
+Comparisons                        10072768           231489
+Data Movements                      3682329             8794
+Memory estimate (Bytes)                39504           281640
+Final Data Count                       8824             8824
+Initial sort comparisons             115095           188804
+Initial sort movements               190695             7966
+Operations comparisons              9957673            42685
+Operations movements                3491634              828
+Array capacity: 9600; AVL peak nodes: 8786
+All per-operation multiset and AVL balance checks: PASS
+
+Data Size: 16000
+Operations: 3200 (insert=1521, delete=1679, successful deletes=22)
+Metric                          Quick Array         AVL Tree
+Total Time (ms)                    10.645360         2.838840
+Comparisons                        40816756           503283
+Data Movements                     13512441            17399
+Memory estimate (Bytes)                78048           556424
+Final Data Count                      17499            17499
+Initial sort comparisons             258783           411499
+Initial sort movements               450686            15899
+Operations comparisons             40557973            91784
+Operations movements               13061755             1500
+Array capacity: 19200; AVL peak nodes: 17370
+All per-operation multiset and AVL balance checks: PASS
+
+Data Size: 20000
+Operations: 4000 (insert=1949, delete=2051, successful deletes=42)
+Metric                          Quick Array         AVL Tree
+Total Time (ms)                    16.995230         3.989600
+Comparisons                        63472943           640065
+Data Movements                     21174855            21722
+Memory estimate (Bytes)                97152           693672
+Final Data Count                      21907            21907
+Initial sort comparisons             317880           523382
+Initial sort movements               551870            19798
+Operations comparisons             63155063           116683
+Operations movements               20622985             1924
+Array capacity: 24000; AVL peak nodes: 21661
+All per-operation multiset and AVL balance checks: PASS
